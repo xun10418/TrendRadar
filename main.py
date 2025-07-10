@@ -25,7 +25,7 @@ CONFIG = {
     "DEFAULT_PROXY": "http://127.0.0.1:10086",
     "ENABLE_CRAWLER": True,  # 是否启用爬取新闻功能，False时直接停止程序
     "ENABLE_NOTIFICATION": True,  # 是否启用通知功能，False时不发送手机通知
-    "FOCUS_NEW_ONLY": False,  # 是否只关注新增新闻，True时只统计和推送新增的新闻(增量推送)
+    "FOCUS_NEW_ONLY": True,  # 是否只关注新增新闻，True时只统计和推送新增的新闻(增量推送)
     # FOCUS_NEW_ONLY 增量推送开关：避免重复推送相同内容，只在有新内容时才发通知
     # 优点：1.减少重复推送噪音 2.专注最新动态 3.避免通知疲劳
     # 适用场景：1.高频监控(≤30分钟间隔) 2.实时热点追踪 3.只关心新话题而非持续热度
@@ -2585,17 +2585,28 @@ class NewsAnalyzer:
             print("运行模式: 正常模式（频率词统计 + 新增检测）")
 
         ids = [
-            ("toutiao", "今日头条"),
+            ("tieba", "贴吧"),
             ("baidu", "百度热搜"),
             ("wallstreetcn-hot", "华尔街见闻"),
             ("thepaper", "澎湃新闻"),
             ("bilibili-hot-search", "bilibili 热搜"),
             ("cls-hot", "财联社热门"),
-            ("ifeng", "凤凰网"),
-            "tieba",
-            "weibo",
-            "douyin",
-            "zhihu",
+            ("weibo","微博"),
+            ("douyin","抖音"),
+            ("zhihu","知乎"),
+            ("cankaoxiaoxi","参考消息"),
+            ("sspai","少数派"),
+            ("jin10","金十"),
+            ("gelonghui","格隆汇"),
+            ("hupu","虎扑"),
+            ("_36kr","36氪"),
+            ("zaobao","联合早报"),
+            ("juejin","稀土掘金"),
+            ("mktnews","MKT News"),
+            ("pcbeta","远景在线"),
+            ("producthunt","ProductHunt"),
+            ("v2ex","V2EX"),
+            ("github","GitHub"),
         ]
 
         print(f"开始爬取数据，请求间隔 {self.request_interval} 毫秒")
