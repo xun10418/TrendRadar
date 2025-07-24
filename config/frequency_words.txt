@@ -1,108 +1,72 @@
-胖东来
-于东来
+重磅
 
-DeepSeek
-梁文锋
-
-华为
-任正非
-鸿蒙
+Huawei
 HarmonyOS
 
-比亚迪
-王传福
-
-宇树
-王兴兴
-
-稚晖君
-智元
-
-黑神话
-冯骥
-
-哪吒
-饺子
-!车
-!餐
-
-流浪地球
-郭帆
-三体
-刘慈欣
-
-米哈游
-原神
-星穹铁道
-
-京东
-刘强东
-
-字节
-张一鸣
-
-小米
-雷军
-xiaomi
+全球
+战略
+政策
 
 马斯克
 特斯拉
+Tesla
 
 微软
 Microsoft
 
-黄仁勋
+MS Office
+Microsoft Office
+Excel
+Word
+Powerpoint
+
 英伟达
 NVIDIA
-
 AMD
 
 谷歌
-google
-gemini
-deepmind
+Google
+Gemini
+Deepmind
 
-chatgpt
-Sam Altman
-openai
+ChatGPT
+OpenAI
 
-claude
+Claude
 Anthropic
 
-苹果
-库克
-iphone
-ipad
-mac
-ios
+iPhone
+iPad
+Mac
+!machine
+iOS
 
-ai
+AI
+大模型
 !gai
 人工智能
 
 汽车
 自动驾驶
-
-手机
-
-机器人
-
-国产
-中国
-
-美国
-
-芯片
-光刻机
+L3
 
 科技
 
-核能
+美股
+纳指
+标普
+道指
+!盘中
+!短线
+
+A股
+港股
+指数
+!盘中
+!短线
+
+小米
+xiaomi
+米家
 
 新质生产力
-
-月球
-登月
-火星
-宇宙
-飞船
